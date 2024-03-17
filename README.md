@@ -9,14 +9,14 @@ it is simple todolist app.
 
 clone the repo 
 ```
-https://github.com/aalhommada/Laravel-vue-todolist.git
+https://github.com/icankamil/wakaftodo.git
 ```
 
 
 Then cd into the folder with this command-
 
 ```
-cd Laravel-vue-todolist
+cd wakaftodo
 ```
 
 Then do a composer install
@@ -53,9 +53,9 @@ Run server using this command-
 ```
 php artisan serve
 ```
-### for the front end part you need to open another terminal for the same project and make :
+### for the front end part you need to open another terminal and make sure the active directory on terminal is frontend directory then run :
 ```
-npm run hot
+npm run serve
 ```
 
-Then go to `http://localhost:8000` from your browser and see the app.
+Then go to `http://localhost:8080` from your browser and see the app.
